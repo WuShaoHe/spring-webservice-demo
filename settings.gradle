@@ -1,0 +1,4 @@
+rootProject.name='spring-webservice-demo'
+
+include 'simple-ws'
+include 'spring-cxf'

@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+
+dependencies{
+
+    compile group: 'org.apache.cxf', name: 'cxf-spring-boot-starter-jaxws', version: '3.2.5'
+    compile group: 'org.apache.cxf', name: 'cxf-spring-boot-starter-jaxrs', version: '3.2.5'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.54'
+    compile 'com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.6.3'
+}
